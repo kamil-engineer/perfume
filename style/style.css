@@ -1,3 +1,97 @@
+/* fraunces-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/fraunces-v38-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* fraunces-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/fraunces-v38-latin-700.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* montserrat-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/montserrat-v31-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* montserrat-500 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/montserrat-v31-latin-500.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* montserrat-600 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/montserrat-v31-latin-600.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* montserrat-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/montserrat-v31-latin-700.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+:root {
+  --color-black: #1c232b;
+  --color-grey: #6c7289;
+  --color-cream: #f2eae2;
+  --color-white: #ffffff;
+  --color-green-500: #3d8168;
+  --color-green-700: #1a4032;
+  --font-heading: "Fraunces", "sans-serif";
+  --font-general: "Montserrat", "sans-serif";
+
+  --fs-xs: 0.875rem; /* 14px */
+  --fs-sm: 1rem; /* 16px */
+  --fs-md: 1.125rem; /* 18px */
+  --fs-lg: 1.5rem; /* 24px */
+  --fs-sub: 1.75rem; /* 28px */
+  --fs-xl: 1.875rem; /* 30px */
+  --fs-2xl: 2.25rem; /* 36px */
+  --fs-3xl: 3rem; /* 48px */
+  --fs-4xl: 3.5rem; /* 56px */
+  --fs-5xl: 4.5rem; /* 72px */
+
+  --space-1: 0.25rem; /* 4px */
+  --space-2: 0.5rem; /* 8px */
+  --space-3: 0.75rem; /* 12px */
+  --space-4: 1rem; /* 16px */
+  --space-5: 1.5rem; /* 24px */
+  --space-6: 2rem; /* 32px */
+  --space-7: 3rem; /* 48px */
+  --space-8: 4rem; /* 64px */
+  --space-9: 6rem; /* 96px */
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
-  background-color: red;
+  font-family: var(--font-general);
 }
